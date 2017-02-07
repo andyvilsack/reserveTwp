@@ -1,0 +1,39 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: inline;
+}
+.navDiv
+{
+	background-color: #dddddd;
+}
+.center-text {
+  text-align: center;
+}
+.center-img {
+   display: block;
+   margin: auto;
+   
+}
+
+
+h1,h2,h3
+{
+	font-family: 'Roboto Slab', serif;
+}
+
+p
+{
+	font-family: 'Open Sans', sans-serif;
+}
+li , ul
+{
+	font-family: 'Open Sans', sans-serif;
+}
+a
+{
+	font-family: 'Open Sans', sans-serif;
+}
