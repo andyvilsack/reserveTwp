@@ -16,7 +16,11 @@
 .center-img {
    display: block;
    margin: auto;
-   
+}
+.container
+{
+	padding-right: 20px;
+	padding-left: 20px;
 }
 h1,h2,h3
 {
@@ -54,7 +58,7 @@ img
     background-color: #1976d2; /* Blue */
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
