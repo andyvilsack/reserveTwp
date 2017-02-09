@@ -1,4 +1,15 @@
-
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: inline;
+}
+.navDiv
+{
+	background-color: #dddddd;
+}
 .center-text {
   text-align: center;
 }
@@ -11,7 +22,7 @@
 	padding-right: 20px;
 	padding-left: 20px;
 }
-
+ul.navbar li {float: left;}
 h1,h2,h3
 {
 	font-family: 'Roboto Slab', serif;
@@ -70,53 +81,7 @@ img
     background-color: #1976d2;
     color: white;
 }
-
-
-ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #1976d2;
-}
-.navbar {
-    display: inline;
-}
-ul.navbar li {float: left;}
-
-ul.navbar li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
-ul.navbar li a:hover {background-color: #1976d2;}
-
-ul.navbar li.icon {display: none;}
-
-@media screen and (max-width:680px) {
-  ul.navbar li:not(:first-child) {display: none;}
-  ul.navbar li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-@media screen and (max-width:680px) {
-  ul.navbar.responsive {position: relative;}
-  ul.navbar.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.navbar.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.navbar.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
+@media only screen and (max-width: 787px) {
+    /* For mobile phones: */
+    
+    }
