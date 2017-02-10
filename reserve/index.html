@@ -10,17 +10,29 @@
   <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript">
+
+function myFunction()
+  {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+  }
+  </script>
   </head>
   <body>
-  <div class="navDiv center-text">
-	  <ul class="navbar" id="myTopnav">
-	  	<li class="navbar"><a class="active" href="">Home</a> </li>
-	  	<li class="navbar"><a href="administration/index.html">Administration</a> </li>
-	  	<li class="navbar"><a  href="police/index.html">Police Department</a> </li>
-	  	<li class="navbar"><a  href="fire/index.html">Fire Department</a> </li>
-	  	<li class="navbar"><a  href="tax/index.html">Tax Office</a></li>
+  <div>
+	  <ul class="topnav" id="myTopnav">
+	  	<li><a class="active" href="">Home</a> </li>
+	  	<li><a href="administration/index.html">Administration</a> </li>
+	  	<li><a href="police/index.html">Police Department</a> </li>
+	  	<li><a href="fire/index.html">Fire Department</a> </li>
+	  	<li><a href="tax/index.html">Tax Office</a></li>
       <li class="icon">
-      <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        <button type="button" onclick="myFunction()">☰</button>
       </li>
 	  </ul>
   </div>
@@ -69,15 +81,6 @@
     <p>412.322.2343(fax)</p>
     <p>Monday - Friday 8a-4p</p>
   </footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript">
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "navbar") {
-        x.className += " responsive";
-    } else {
-        x.className = "navbar";
-    }
-}
-  </script>
+
   </body>
 </html>
